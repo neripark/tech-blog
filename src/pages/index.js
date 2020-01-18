@@ -1,9 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
+import TestLinkButton from "../components/TestLinkButton"
 
 export default () => (
   <>
     <div>Hello world!</div>
-    <Link to="articles">articles page</Link>
+    <TestLinkButton href="articles">to article page.</TestLinkButton>
   </>
 )

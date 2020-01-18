@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import TestLinkButton from "../../components/TestLinkButton"
 
 const array = [
   {
@@ -25,6 +25,6 @@ export default () => (
         </div>
       )
     })}
-    <Link to="/">Top page.</Link>
+    <TestLinkButton href="/">to TopPage!</TestLinkButton>
   </div>
 )
